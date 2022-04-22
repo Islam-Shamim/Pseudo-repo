@@ -1,0 +1,82 @@
+h3 {
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+a {
+    background-color: antiquewhite;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+a:visited {
+    color: red;
+    background-color: aquamarine;
+}
+
+.btn {
+    color: orange;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hvr {
+    background-color: antiquewhite;
+    color: yellowgreen;
+    border-radius: 5px;
+}
+
+.hvr:hover {
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    ;
+}
+
+.name {
+    display: block;
+    margin: 5px;
+}
+
+.name:focus {
+    color: white;
+    background-color: gray;
+}
+
+li:first-child {
+    font-size: 20px;
+    color: aqua;
+}
+
+li:last-child {
+    font-size: 2em;
+    color: brown
+}
+
+li:nth-child(2n) {
+    background-color: rgb(26, 207, 207);
+    color: yellow;
+}
+
+li:nth-child(2n+1) {
+    color: red;
+}
+
+h5::before {
+    content: 'Shamim ';
+    font-size: 15px;
+}
+
+h5::after {
+    content: ' yesterday.';
+}
